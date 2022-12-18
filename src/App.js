@@ -25,6 +25,8 @@ const DUMMY_EXPENSES = [
 ];
 
 const App = () => {
+  console.log(DUMMY_EXPENSES[0].date);
+
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   const addExpenseHandler = (expense) => {
